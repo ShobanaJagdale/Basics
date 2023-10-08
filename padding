@@ -1,0 +1,20 @@
+#include <iostream>
+class data1
+{
+    bool isemp;
+    int empid;
+    char initial;
+};
+
+class data2
+{
+    int empid;
+    bool isemp;
+    char initial;
+};
+int main() {
+    //padding, difference in data members rearrangement
+    std::cout<<"size data : "<<sizeof(data1)<<"\n";
+    std::cout<<"size data1 : "<<sizeof(data2);
+    return 0;
+}
